@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <title>{{title}}</title>
+</head>
+<body>
+  {{#open}}
+  One
+    {{#open}}
+      Two
+    {{/open}}
+  Three
+  {{/open}}
+  <h1>{{delay(50, "I'm delayed")}}</h1>
+  <ul>
+  {{#items}}
+    <li>{{title}} - {{author}}</li>
+  {{/items}}
+  </ul>
+</body>
+</html>
