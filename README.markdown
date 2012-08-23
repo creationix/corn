@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/creationix/corn.png)](http://travis-ci.org/creationix/corn)
 # Corn
 
 Corn is a simple async template framework for node.  It's based on the proof-of-concept corn in the creationix/grain module.
